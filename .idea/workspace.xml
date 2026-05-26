@@ -5,75 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef474b04-d259-4a88-9251-cb1bca515876" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/FastApiTrainingProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlScripts/DBSchema.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SqlScripts/SQL_Script_Training.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alembic/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dependencies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/internal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/internal/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/menu_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/offers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/order_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/order_ratings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/restaurant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user_address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/menu_items_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repository/user_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routers/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/cart_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/common_enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/menu_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/offers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/order_items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/order_ratings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/restaurant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/user_address.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/item_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/test_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/test_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_pid2904.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/orm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/menu_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FastApiTrainingProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastApiTrainingProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/DBSchema.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/SQL_Script_Training.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dependencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/cart_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/cart_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/menu_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/menu_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/offers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/order_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/order_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/order_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/order_ratings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/restaurant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/orm/user_address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/menu_items_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repository/menu_items_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/user_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repository/user_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/cart_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/cart_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/common_enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/common_enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/menu_item.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/menu_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/offers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/order_items.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/order_items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/order_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/order_ratings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/restaurant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/user_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/user_address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/item_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/item_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_pid2904.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +57,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="69" />
+    <option name="cachedIndexableFilesCount" value="110" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,34 +82,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.orders.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.restaurant.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="users" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.orders">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastApiTrainingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FastApiTrainingProject" />
       <option name="ENV_FILES" value="$PROJECT_DIR$/.env" />
@@ -144,7 +150,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
@@ -159,9 +165,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="orders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastApiTrainingProjectBE" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/routers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/routers/orders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restaurant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FastApiTrainingProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/routers" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/routers/restaurant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.orders" />
+        <item itemvalue="Python.restaurant" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +255,52 @@
       <workItem from="1776151377896" duration="7305000" />
       <workItem from="1776236896886" duration="22000" />
       <workItem from="1776238144496" duration="108000" />
-      <workItem from="1776312982778" duration="2952000" />
+      <workItem from="1776312982778" duration="3940000" />
+      <workItem from="1776404560511" duration="1059000" />
+      <workItem from="1776406541325" duration="7309000" />
+      <workItem from="1776484550407" duration="18706000" />
+      <workItem from="1776666539975" duration="7724000" />
+      <workItem from="1776689581219" duration="8000" />
+      <workItem from="1776772451753" duration="11000" />
+      <workItem from="1776773169609" duration="9000" />
+      <workItem from="1777956419855" duration="8409000" />
+      <workItem from="1777976872507" duration="787000" />
+      <workItem from="1778042972377" duration="20000" />
+      <workItem from="1778052476331" duration="368000" />
+      <workItem from="1778052862257" duration="335000" />
+      <workItem from="1778053208056" duration="372000" />
+      <workItem from="1778055959810" duration="2736000" />
+      <workItem from="1778128990053" duration="940000" />
+      <workItem from="1778135695958" duration="998000" />
+      <workItem from="1778144654954" duration="405000" />
+      <workItem from="1778145808276" duration="2000" />
+      <workItem from="1778146444491" duration="2000" />
+      <workItem from="1778146612464" duration="3020000" />
+      <workItem from="1778215446914" duration="2561000" />
+      <workItem from="1778564083449" duration="6589000" />
+      <workItem from="1778648067657" duration="8561000" />
+      <workItem from="1778734133330" duration="7167000" />
+      <workItem from="1778763153490" duration="13000" />
+      <workItem from="1778817445748" duration="4607000" />
+      <workItem from="1779080366048" duration="4092000" />
+      <workItem from="1779089415121" duration="1640000" />
+      <workItem from="1779164146259" duration="9351000" />
+      <workItem from="1779254391502" duration="6964000" />
+      <workItem from="1779266986545" duration="5176000" />
+      <workItem from="1779272313875" duration="103000" />
+      <workItem from="1779272738089" duration="102000" />
+      <workItem from="1779276381408" duration="6565000" />
+      <workItem from="1779336913398" duration="13317000" />
+      <workItem from="1779367543849" duration="326000" />
+      <workItem from="1779423483733" duration="7545000" />
+      <workItem from="1779685115690" duration="5076000" />
+      <workItem from="1779694825987" duration="1711000" />
+      <workItem from="1779696630527" duration="5226000" />
+      <workItem from="1779769881766" duration="5867000" />
+      <workItem from="1779780888650" duration="1124000" />
+      <workItem from="1779782359985" duration="7245000" />
+      <workItem from="1779794999779" duration="1820000" />
+      <workItem from="1779798406178" duration="125000" />
     </task>
     <servers />
   </component>
@@ -208,7 +312,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/alembic/env.py</url>
-          <line>29</line>
+          <line>26</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -221,10 +325,116 @@
           <line>11</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/user_address.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/cart.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/cart.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/core/logger.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/core/logger.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/user.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/user.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/services/restaurant.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/restaurant_repository.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/services/restaurant.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/restaurant_repository.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/services/restaurant.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/restaurant.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/restaurant_repository.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/user.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/orders.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/services/orders.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/repository/order_repository.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/dto/order.py</url>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/routers/cart_items.py</url>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FastApiTrainingProject$main.coverage" NAME="main Coverage Results" MODIFIED="1775820846918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/FastApiTrainingProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1777962096212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/FastApiTrainingProject$restaurant.coverage" NAME="restaurant Coverage Results" MODIFIED="1777962074336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/routers" />
+    <SUITE FILE_PATH="coverage/FastApiTrainingProject$main.coverage" NAME="main Coverage Results" MODIFIED="1777962114776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/FastApiTrainingProjectBE$orders.coverage" NAME="orders Coverage Results" MODIFIED="1779338901844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/routers" />
   </component>
 </project>

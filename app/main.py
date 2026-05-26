@@ -1,15 +1,18 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
-from app.routers import user, items
+from app.core.bootstrap import bootstrap
+from app.utils.common import APP_TITLE, APP_VERSION, APP_DESCRIPTION
+from app.core.lifespan import lifespan
 
-app=FastAPI()
+app=FastAPI(
+    title=APP_TITLE,
+    version=APP_VERSION,
+    description=APP_DESCRIPTION,
+    docs_url="/docs",
+    lifespan=lifespan,
+)
 
-
-# utilising user from routes, all the routes defined inside users route will come as we have included routes within context of app
-app.include_router(user.router)
-
-app.include_router(items.router)
-
+bootstrap(app)
 @app.get("/")
 async def root():
     return RedirectResponse(url="/docs")

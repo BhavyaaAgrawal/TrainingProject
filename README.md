@@ -181,4 +181,35 @@ to rollback to any version in db use alembic downgrade <head revision you need t
 
 
 
+Angular is framework (full fledged thing like flask, fastapi that handles routing in itself etc.)
 
+React is library (that can be improted like packages, modules in python)> we have choice here like what 
+all we need to import and use in code etc, frameworks have thesse in built so dont provide upper hand to us
+
+convert react into js, html code that our browser can understand is called build tools, bundlers eg webpack is a bundler
+
+converting react code to js>bundle so we cant get it back in unbundling
+
+minify is not same as zipping its like uglifying code or making it smaller to make it unreadable
+to end users for making difficult to reverse engineer
+
+npm init -y
+npm install -D parcel (dev dependency used only for dev mode, not rq for production)
+^major_version.minor_version.patch_version : this carot sign denotes in next upgrade it will not upgrade major_version but can do for minor and patch verion
+~major_version.minor_version.patch_version : tilde sign denots change in oatch version only in next install
+
+npm install: checks package.json and performs action accordingly
+npm i react react-dom
+npm run start (will read start tag from package.json and will work accordingly)
+arrow function now used instead of normal vanilla functions in react after jsx
+
+fixtures in pytest
+SimpleNamespace
+pooling
+web sockets
+
+WAL: write ahead logs
+CDC: change data capture
+
+ruff is for import checking, linting
+mypy is for statuc type checking

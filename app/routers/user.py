@@ -1,33 +1,43 @@
 from fastapi import APIRouter, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
-
-from app.db.database import get_db
-from app.schemas.user import UserCreate, UserLogin, UserResponse, UserUpdate
-from app.services.user_service import add_user, validate_login_user, get_specific_user, updated_user, deleted_user
+from app.dto.user import UserCreate, UserLogin, UserUpdate
+from app.services.user_service import UserService
+from app.core.logger import setup_logger
+from app.dependencies import user_service
 
 router = APIRouter(prefix="/users", tags=["Users"])
 
 @router.post("/login-user")
-async def login_user(user: UserLogin, db:AsyncSession = Depends(get_db)):
-    return await validate_login_user(user, db)
+async def login_user(user: UserLogin,svc:UserService=Depends(user_service)):
+    logger = setup_logger()
+    logger.info('Checking user logged in feature')
+    return await svc.validate_login_user(user)
 
 
-@router.get("/get-user",  response_model=UserResponse)
-async def get_user(user_id: int, db:AsyncSession = Depends(get_db)):
-    return await get_specific_user(user_id, db)
+@router.get("/get-user")
+async def get_user(user_id: int,svc:UserService=Depends(user_service)):
+    return await svc.get_specific_user(user_id)
 
 
 @router.post("/create-user")
-async def create_user(user: UserCreate, db:AsyncSession = Depends(get_db)):
-    user_payload = user.model_dump()
-    return await add_user(user_payload, db)
+async def create_user(user: UserCreate, svc:UserService=Depends(user_service)):
+    user_payload = user.model_dump(exclude_unset=True, exclude_none=True)
+    return await svc.add_user(user_payload)
 
 @router.patch("/update-user")
-async def update_user(user_id:int, user: UserUpdate, db:AsyncSession = Depends(get_db)):
+async def update_user(user_id:int, user: UserUpdate,svc:UserService=Depends(user_service)):
     # dump or dict of input params body we are passing to this route point
-    user_payload = user.model_dump()
-    return await updated_user(user_id, user_payload, db)
+    user_payload = user.model_dump(exclude_unset=True, exclude_none=True)
+    return await svc.updated_user(user_id, user_payload)
+
+@router.post('/reset-password')
+async def reset_password(user_payload:UserLogin, svc:UserService=Depends(user_service)):
+    user_payload = user_payload.model_dump(exclude_unset=True, exclude_none=True)
+    return await svc.reset_user_password(user_payload)
 
 @router.delete("/delete-user")
-async def delete_user(user_id:int, db:AsyncSession = Depends(get_db)):
-    return await deleted_user(user_id, db)
+async def delete_user(user_id:int,svc:UserService=Depends(user_service)):
+    return await svc.deleted_user(user_id)
+
+@router.get("/get-all-users")
+async def get_all_user(svc:UserService=Depends(user_service)):
+    return await svc.get_all_users()

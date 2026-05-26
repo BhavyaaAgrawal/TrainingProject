@@ -1,0 +1,6 @@
+INTERNAL_ERROR = "Internal Server Error"
+VALIDATION_ERROR = "Request validation failed"
+HTTP_ERROR = "Request failed"
+USER_NOT_FOUND = "User not found"
+INCORRECT_EMAIL_OR_PASSWORD = "Incorrect email or password"
+EMAIL_ALREADY_EXISTS = "Email already exists"

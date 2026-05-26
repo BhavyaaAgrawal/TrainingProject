@@ -1,12 +1,9 @@
 import os
 from logging.config import fileConfig
 from sqlalchemy.ext.asyncio import create_async_engine
-from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-import asyncio
 
 from alembic import context
-from app.models import *
 from app.db.database import Base
 from dotenv import load_dotenv
 load_dotenv()
